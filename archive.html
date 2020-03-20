@@ -20,8 +20,8 @@
 
         .header img {
             float: left;
-            width: 50px;
-            height: 50px;
+            width: 65px;
+            height: 65px;
             background:rgb(255, 255, 255);
             padding-right: 12px;
         }
@@ -99,9 +99,10 @@
         bottom: 0;
         width: 100%;
         position: fixed;
-        padding: 20px; /* Some padding */
+        padding-left: 10px; /* Some padding */
+        padding-top: 0px;
         text-align: left; /* Center text*/
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(223, 247, 193);
         color: rgb(0, 0, 0);
         }
     
@@ -113,6 +114,36 @@
         font-size: 13px;
         font-family: Arial, Helvetica, sans-serif;
         }
+
+
+        .footerleft {
+        float:left;
+        flex: 50%; /* Set the width of the main content */
+        padding: 5px; /* Some padding */
+        overflow: auto;
+        height: 100%;
+        scroll-behavior: auto;
+        }
+
+        .footerright {
+        float: right;
+        flex: 50%; /* Set the width of the main content */
+        padding: 5px; /* Some padding */
+        overflow: auto;
+        height: 100%;
+        scroll-behavior: auto;
+        }
+        
+        .footerright img {
+            float: right;
+            width: 177px;
+            height: 99px;
+            padding-right: 12px;
+        }
+
+
+
+
 
        /* title text for columns */
         ttext  {
@@ -140,7 +171,7 @@
         top: 0px;
         left: 0px;
         bottom: 0px;
-        font-size: 10px;
+        font-size: 11px;
         font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -180,7 +211,8 @@
 <div class="navbar">
     <a href="index.html">Home</a> 
     <a href="archive.html">Archive</a>
-    <a href="projects.html">Projects</a>
+    <a href="gallery.html">Gallery</a> 
+    <a href="products-services.html">Products and Services</a>
     <a href="resources.html">Resources</a>
     <a href="our-story.html">Our Story</a>
     <!-- <a href="#" class="right">Link</a> -->
@@ -214,27 +246,25 @@
   </div>
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="footer">
     
-    <p>  
-        <h3>Kanji Yoshimura: (076) 100 4764 <br> Dimitar Dobrev: (071) 581 2568 <br> info.rhssa@gmail.com  <br> REG: 2018/198165/07 </h3> 
-        <h2>Renewable Houses South Africa (Pty) Ltd</h2> 
-    </p>
+    <div class="row"> 
     
-  </div> 
+        <div class="footerleft"> 
+            <p>  
+                <h3>Kanji Yoshimura: (076) 100 4764 <br> Dimitar Dobrev: (071) 581 2568 <br> info.rhssa@gmail.com  <br> REG: 2018/198165/07 </h3> 
+                <h2>Renewable Houses South Africa (Pty) Ltd</h2> 
+            </p>
+        </div>
+    
+        <div class="footerright"> 
+            <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building"/> 
+        </div>
+    
+    </div>
+         
+    
+      </div> 
 
 
 </html>

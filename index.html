@@ -22,8 +22,8 @@
 
         .header img {
             float: left;
-            width: 50px;
-            height: 50px;
+            width: 65px;
+            height: 65px;
             background:rgb(255, 255, 255);
             padding-right: 12px;
         }
@@ -101,9 +101,10 @@
         bottom: 0;
         width: 100%;
         position: fixed;
-        padding: 20px; /* Some padding */
+        padding-left: 10px; /* Some padding */
+        padding-top: 0px;
         text-align: left; /* Center text*/
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(223, 247, 193);
         color: rgb(0, 0, 0);
         }
     
@@ -116,7 +117,34 @@
         font-family: Arial, Helvetica, sans-serif;
         }
 
+        .footerleft {
+        float:left;
+        flex: 50%; /* Set the width of the main content */
+        padding: 5px; /* Some padding */
+        overflow: auto;
+        height: 100%;
+        scroll-behavior: auto;
+        }
+
+        .footerright {
+        float: right;
+        flex: 50%; /* Set the width of the main content */
+        padding: 5px; /* Some padding */
+        overflow: auto;
+        height: 100%;
+        scroll-behavior: auto;
+        }
+        
+        .footerright img {
+            float: right;
+            width: 177px;
+            height: 99px;
+            padding-right: 12px;
+        }
+
+
        /* title text for columns */
+    
         ttext  {
         position: left;
         top: 0px;
@@ -142,7 +170,7 @@
         top: 0px;
         left: 0px;
         bottom: 0px;
-        font-size: 10px;
+        font-size: 11px;
         font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -179,7 +207,8 @@
 <div class="navbar">
     <a href="index.html">Home</a> 
     <a href="archive.html">Archive</a> <!--Files for download-->
-    <a href="projects.html">Projects</a> <!--Takes user to galler, each pic links to new page-->
+    <a href="gallery.html">Gallery</a> <!--Takes user to galler, each pic links to new page-->
+    <a href="products-services.html">Products and Services</a>
     <a href="resources.html">Resources</a>
     <a href="our-story.html">Our Story</a>
     <!-- <a href="#" class="right">Link</a> -->
@@ -189,7 +218,7 @@
     <div class="side">
     <p><ttext><b>News Feed</b></ttext></p>
     <p> <btext>
-                2020.03 Calling all bamboo growers to make contact 
+        <br>    2020.03 Calling all bamboo growers to make contact 
         <br>    2020.03 Developing Bamboo Regional Hub Business Model
         <br>    2019.11 Species Clumping Planting <a href="file/(A4) Appendix 4 - List of Clumping Species.pdf">Guide</a> Version 1.1 
         <br>    2019.04 <a href="file/(A4) 2019.4.29 Proposal for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre.pdf">Proposal</a> for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre
@@ -205,7 +234,7 @@
     <div class="main">
        <p><ttext><b>Bamboo Regional Hub</b></ttext></p> 
        <p> <btext> 
-                2020.03 
+                <br> 2020.03 
                 <br> We are currently developing a buiness model around the idea of a Bamboo Regional Hub. The Hub will consist of 3 components working in synergy: 
                 <br><br>    &emsp; 1: Bamboo Nursery; 
                 <br>    &emsp; 2: Bamboo Treatment Facility; 
@@ -216,7 +245,7 @@
         <p> 
             <btext> <b> Production </b>
             <br><br> 1. The Bamboo Nursery will facilitate the reproduction of desirable bamboo species throughout the year or whenever possible. 
-            <br> Several propagation methods will be explored. We would like to create a stable bamboo seedling supply chain for farmers and growers.  
+            <br> Several propagation methods will be explored. We would like to establish a stable bamboo seedling supply chain for farmers and growers.  
 
             <br><br> 2. In order to turn raw bamboo into a usable construction material, chemical treatment and curing is necessary. 
             <br> Untreated the bamboo will only last 2-3 years compared to 30-40 years treated and used undercover. 
@@ -245,11 +274,22 @@
 
   <div class="footer">
     
-    <p>  
-        <h3>Kanji Yoshimura: (076) 100 4764 <br> Dimitar Dobrev: (071) 581 2568 <br> info.rhssa@gmail.com  <br> REG: 2018/198165/07 </h3> 
-        <h2>Renewable Houses South Africa (Pty) Ltd</h2> 
-    </p>
-    
+<div class="row"> 
+
+    <div class="footerleft"> 
+        <p>  
+            <h3>Kanji Yoshimura: (076) 100 4764 <br> Dimitar Dobrev: (071) 581 2568 <br> info.rhssa@gmail.com  <br> REG: 2018/198165/07 </h3> 
+            <h2>Renewable Houses South Africa (Pty) Ltd</h2> 
+        </p>
+    </div>
+
+    <div class="footerright"> 
+        <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building"/> 
+    </div>
+
+</div>
+     
+
   </div> 
 
 
