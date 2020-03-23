@@ -59,7 +59,7 @@
         }
 
             /* Column container */
-        .row {
+            .row {
         display: flex;
         flex-wrap: wrap;
         scroll-behavior: auto;
@@ -76,6 +76,7 @@
         overflow: auto;
         height: 100%;
         scroll-behavior: auto;
+        line-height: 120%;
         }
 
         /* Main column */
@@ -86,6 +87,7 @@
         overflow: auto;
         height: 100%;
         scroll-behavior: auto;
+
         }
 
         body {
@@ -100,6 +102,7 @@
             font-size: 0;
             width: 261px;
             margin: 0 auto;
+            float: left;
         }
 
         #imagelist a {
@@ -179,6 +182,18 @@
         font-family: Arial, Helvetica, sans-serif;
         }
 
+
+        ttextcol  {
+        position: left;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(143, 184, 93)
+        }
+
+
         /* body text for columns */
         btext  {
         position: left;
@@ -235,27 +250,43 @@
     <!-- <a href="#" class="right">Link</a> -->
   </div>
   
-  <br>
-
-
-  <div id="imagelist"> 
-     
-    <a href="img/fish-screen-1.jpg"><img src="img/fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-    <a href="img/fish-screen-2.jpg"><img src="img/fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-    <a href="img/interior-2.jpg"><img src="img/interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
-    <a href="img/nmcyc-1.jpg"><img src="img/nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-    <a href="img/nmcyc-2.jpg"><img src="img/nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
-    <a href="img/nmcyc-3.jpg"><img src="img/nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-    <a href="img/suspension-1.jpg"><img src="img/suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
+<div class=row>
     
-    
-    <!--Creating a grid of images with CSS
-    https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
+    <div class=side> 
+    <p><ttextcol><b>Gallery</b></ttextcol></p>
+        
+    </div>
 
+
+    <div class=main>   
+       
+       
+            <div id="imagelist">   
+            <a href="img/fish-screen-1.jpg"><img src="img/fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+            <a href="img/fish-screen-2.jpg"><img src="img/fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+            <a href="img/interior-2.jpg"><img src="img/interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
+            <a href="img/nmcyc-1.jpg"><img src="img/nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+            <a href="img/nmcyc-2.jpg"><img src="img/nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
+            <a href="img/nmcyc-3.jpg"><img src="img/nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+            <a href="img/suspension-1.jpg"><img src="img/suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
+            
+            
+            <!--Creating a grid of images with CSS
+            https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
+        
+        
+        
+        
+        </div>
+
+    </div>
+    
 
 
 
 </div>
+
+  
 
 
 
