@@ -1,20 +1,29 @@
 <html>
 
-    <title>Renewable Houses South Africa - Home Page</title>
+    <title>Renewable Houses SA - Projects</title>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- <base target="_blank"> --> 
+
 
 <head>
     <style>
                
                
+                    
+                   
+
+
+                    .responsive {
+            width: 100%;
+            height: auto;
+        }
+
         .header {
-        padding-top: 20px; 
+        padding-top: 10px; 
         padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 40px;/* some padding */
+        padding-left: 10px;
+        padding-right: 10px;/* some padding */
         text-align: left; /* center the text */
         background: #ffffff; /* green background */
         color: rgb(0, 0, 0); /* white text color */
@@ -22,8 +31,8 @@
 
         .header img {
             float: left;
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             background:rgb(255, 255, 255);
             padding-right: 12px;
         }
@@ -33,7 +42,7 @@
         top: 0px;
         left: 0px;
         bottom: 0px;
-        font-size: 30px;
+        font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
                 }
 
@@ -47,7 +56,8 @@
         display: block; /* Change the display to block, for responsive reasons (see below) */
         color: rgb(0, 0, 0); /* White text color */
         text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
+        padding: 10px; /* Add some padding */
+        padding-left: 20px;
         text-decoration: none; /* Remove underline */
         }
 
@@ -68,21 +78,11 @@
         height: 100%;
         }
 
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        .side {
-        flex: 30%; /* Set the width of the sidebar */
-        background-color: #ffffff; /* Grey background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        line-height: 120%;
-        }
+        
 
         /* Main column */
         .main {
-        flex: 70%; /* Set the width of the main content */
+        flex: 100%; /* Set the width of the main content */
         background-color: white; /* White background color */
         padding: 35px; /* Some padding */
         overflow: auto;
@@ -145,7 +145,6 @@
             padding-right: 12px;
         }
 
-
        /* title text for columns */
     
         ttext  {
@@ -177,6 +176,18 @@
         font-family: Arial, Helvetica, sans-serif;
         }
 
+        @media only screen and (min-width: 1024px) {
+                    
+                    .main { 
+                        padding: 100px;
+                        padding-top: 35px;
+                    }
+                    .navbar a {
+                    padding-left: 100px;
+                        }
+                  
+               }
+
 
       
 
@@ -189,13 +200,14 @@
 
 <div class="header">
     <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-    <h1>Renewable Houses South Africa</h1>
+    <h1>Renewable Houses SA</h1>
   </div> 
 
 
 
 
 <body>
+
     <script>
         // alert("Hello Dim")
         function handleClick() {
@@ -208,34 +220,20 @@
 
 
 <div class="navbar">
-    <a href="index.html">Home</a> 
+    <a href="index.html">Projects</a> <!--bamboo regional hub-->
     <!--<a href="gallery.html">Gallery</a>-->  
-    <a href="products-services.html">Products and Services</a>
-    <a href="archive-resources.html">Archive and Resources</a> <!--Files for download-->
-    <a href="our-story.html">Our Story</a>
+    <a href="products-services.html">Services</a> <!--products and services and gallery-->
+    <a href="archive-resources.html">Archive</a> <!--Files for download-->
+    <a href="our-story.html">Story</a> <!--vision, ethos, bla bla-->
     <!-- <a href="#" class="right">Link</a> -->
   </div>
   
   <div class="row">
-    <div class="side">
-    <p><ttext><b>News Feed</b></ttext></p>
-    <p> <btext>
-        <br>    2020.03 Website launch
-        <br>    2020.03 Developing Bamboo Regional Hub Business Model
-        <br>    2019.11 Species Clumping Planting <a href="file/(A4) Appendix 4 - List of Clumping Species.pdf">Guide</a> Version 1.1 
-        <br>    2019.04 <a href="file/(A4) 2019.4.29 Proposal for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre.pdf">Proposal</a> for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre
-        <br>    2018.05 Treatment Pool and Rack Preliminary <a href="file/(A3) 2018-05-03 Treatment Pool and Rack.pdf">Design</a>
-        <br>    2018.05 Glenwood Weekly Gazette <a href="file/Glenwood Weekly Gazette.jpg">Feature</a> 
-        <br>    2018.03 Renewable Houses South Africa (Pty) Ltd. founded in Durban, South Africa
-    </btext>
-    </p>
-    </div>
     
-
     <div class="main">
        <p><ttextcol><b>Bamboo Regional Hub</b></ttextcol></p> 
        <p> <btext> 
-                <br> 2020.03 
+                <b>2020.04</b>
                 <br> We are currently developing a buiness model around the idea of a Bamboo Regional Hub. The Hub will consist of 3 components working in synergy: 
                 <br><br>    &emsp; 1: Bamboo Nursery; 
                 <br>    &emsp; 2: Bamboo Treatment Facility; 

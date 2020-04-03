@@ -8,11 +8,11 @@
     <style>
                
                
-        .header {
-        padding-top: 20px; 
+               .header {
+        padding-top: 10px; 
         padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 40px;/* some padding */
+        padding-left: 10px;
+        padding-right: 10px;/* some padding */
         text-align: left; /* center the text */
         background: #ffffff; /* green background */
         color: rgb(0, 0, 0); /* white text color */
@@ -20,8 +20,8 @@
 
         .header img {
             float: left;
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             background:rgb(255, 255, 255);
             padding-right: 12px;
         }
@@ -31,11 +31,11 @@
         top: 0px;
         left: 0px;
         bottom: 0px;
-        font-size: 30px;
+        font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
                 }
 
-        .navbar {
+                .navbar {
         overflow: hidden; /* Hide overflow */
         background-color: rgb(223, 247, 193); /* Dark background color */
         }
@@ -45,7 +45,8 @@
         display: block; /* Change the display to block, for responsive reasons (see below) */
         color: rgb(0, 0, 0); /* White text color */
         text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
+        padding: 10px; /* Add some padding */
+        padding-left: 20px;
         text-decoration: none; /* Remove underline */
         }
 
@@ -69,19 +70,10 @@
 
         /* Create two unequal columns that sits next to each other */
         /* Sidebar/left column */
-        .side {
-        flex: 30%; /* Set the width of the sidebar */
-        background-color: #ffffff; /* Grey background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        line-height: 120%;
-        }
-
+      
         /* Main column */
         .main {
-        flex: 70%; /* Set the width of the main content */
+        flex: 100%; /* Set the width of the main content */
         background-color: white; /* White background color */
         padding: 35px; /* Some padding */
         overflow: auto;
@@ -180,6 +172,20 @@
         }
 
 
+        @media only screen and (min-width: 1024px) {
+                    
+                    .main { 
+                        padding: 100px;
+                        padding-top: 35px;
+                    }
+                    .navbar a {
+                    padding-left: 100px;
+                        }
+                  
+               }
+
+
+
 
 </style>
    
@@ -195,8 +201,8 @@
 
 <div class="header">
     <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-    <h1>Renewable Houses South Africa</h1>
-  </div> 
+    <h1>Renewable Houses SA</h1>
+  </div>  
 
 
 
@@ -215,11 +221,11 @@
 
 
 <div class="navbar">
-    <a href="index.html">Home</a> 
-    <!--<a href="gallery.html">Gallery</a>-->
-    <a href="products-services.html">Products and Services</a>
-    <a href="archive-resources.html">Archive and Resources</a> <!--Files for download-->
-    <a href="our-story.html">Our Story</a>
+    <a href="index.html">Projects</a> <!--bamboo regional hub-->
+    <!--<a href="gallery.html">Gallery</a>-->  
+    <a href="products-services.html">Services</a> <!--products and services and gallery-->
+    <a href="archive-resources.html">Archive</a> <!--Files for download-->
+    <a href="our-story.html">Story</a> <!--vision, ethos, bla bla-->
     <!-- <a href="#" class="right">Link</a> -->
   </div>
   
@@ -231,8 +237,12 @@
 
 
   <div class="row">
-    <div class="side">
-    
+   
+
+
+    <div class="main">
+        
+                        
 <p><ttextcol><b>Bamboo Species</b></ttextcol></p>
         
 <p> <btext> <b>Construction Grade Species</b>
@@ -248,33 +258,9 @@
             <br><br>   Hedge Bamboo: <a href="https://pfaf.org/user/Plant.aspx?LatinName=Bambusa+multiplex">Bambusa multiplex</a>
                 
         </p>
-        
-        
+        <br>
 
-        
-
-
-</p>
-        
-
-
-
-
-
-        </btext>
-        </p>
-
-
-        
-    </div>
-    
-
-
-    <div class="main">
-        
-                       
-
-        <p><ttext><b>Reference Material</b></ttext></p>
+        <p><ttextcol><b>Reference Material</b></ttextcol></p>
         <p> <btext>
             <br>        Free Bamboo Publications at <a href="https://www.guaduabamboo.com/bamboo-pdfs">Guadua Bamboo</a>
 
@@ -292,8 +278,8 @@
             <br>    2017, Mothapo, MG. "Economic Evaluation of Bamboo Cultivation and Potential Yield on Rehabilitated Mine Sites" <a href="file/2017, Mothapo, MG - Economic Evaluation of Bamboo Cultivation and Potential Yield on Rehabilitated Mine Sites.pdf"> PDF (3mb)</a>
             <br>    2018, Witte, D. "Contemporary Bamboo Housing in South America" <a href="https://bambuecuador.files.wordpress.com/2018/05/witte_2018-bamboothesis.pdf"> PDF (27.8mb)</a>
         </btext>
-
-        <p> <p><ttext><b>RHSA Documents and Journals</b></ttext></p>
+        <br>
+        <p> <p><ttextcol><b>RHSA Files</b></ttextcol></p>
         <p> <btext>     2019.11 Species Clumping Planting Guide <a href="file/(A4) Appendix 4 - List of Clumping Species.pdf">PDF (2mb)</a>  
         <br>    2019.04 Proposal for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre
         <a href="file/(A4) 2019.4.29 Proposal for BambooTreatment Facility and Workshop at Nelson Mandela Community Youth Centre.pdf">PDF (7.4mb)</a> 

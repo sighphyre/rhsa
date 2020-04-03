@@ -1,6 +1,6 @@
 <html>
 
-    <title>Renewable Houses South Africa - Home Page</title>
+    <title>Renewable Houses South Africa - Services</title>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,11 +10,11 @@
     <style>
                
                
-        .header {
-        padding-top: 20px; 
+               .header {
+        padding-top: 10px; 
         padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 40px;/* some padding */
+        padding-left: 10px;
+        padding-right: 10px;/* some padding */
         text-align: left; /* center the text */
         background: #ffffff; /* green background */
         color: rgb(0, 0, 0); /* white text color */
@@ -22,8 +22,8 @@
 
         .header img {
             float: left;
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             background:rgb(255, 255, 255);
             padding-right: 12px;
         }
@@ -33,11 +33,11 @@
         top: 0px;
         left: 0px;
         bottom: 0px;
-        font-size: 30px;
+        font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
                 }
 
-        .navbar {
+                .navbar {
         overflow: hidden; /* Hide overflow */
         background-color: rgb(223, 247, 193); /* Dark background color */
         }
@@ -47,7 +47,8 @@
         display: block; /* Change the display to block, for responsive reasons (see below) */
         color: rgb(0, 0, 0); /* White text color */
         text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
+        padding: 10px; /* Add some padding */
+        padding-left: 20px;
         text-decoration: none; /* Remove underline */
         }
 
@@ -71,19 +72,11 @@
 
         /* Create two unequal columns that sits next to each other */
         /* Sidebar/left column */
-        .side {
-        flex:30%; /* Set the width of the sidebar */
-        background-color: #ffffff; /* Grey background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        line-height: 120%;
-        }
+       
 
         /* Main column */
         .main {
-        flex: 50%; /* Set the width of the main content */
+        flex: 100%; /* Set the width of the main content */
         background-color: white; /* White background color */
         padding: 35px; /* Some padding */
         overflow: auto;
@@ -113,7 +106,7 @@
         #imagelist {
             
             font-size: 0;
-            width: 200px;
+            width: 300px;
             margin: 0 auto;
             float: left;
         }
@@ -204,7 +197,8 @@
         font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
         color:rgb(143, 184, 93)
-        }
+        
+             }
 
         /* body text for columns */
         btext  {
@@ -217,6 +211,21 @@
         }
 
 
+
+        @media only screen and (min-width: 1024px) {
+                    
+                    .main { 
+                        padding: 100px;
+                        padding-top: 35px;
+                    }
+                    .navbar a {
+                    padding-left: 100px;
+                        }
+                  
+               }
+
+
+
 </style>
 
   
@@ -226,8 +235,8 @@
 
 
 <div class="header">
-    <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, durban, south africa"/> 
-    <h1>Renewable Houses South Africa</h1>
+    <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
+    <h1>Renewable Houses SA</h1>
   </div> 
 
 
@@ -246,39 +255,33 @@
     </script>
 
 
-
 <div class="navbar">
-    <a href="index.html">Home</a> 
-    <!--<a href="gallery.html">Gallery</a>--> 
-    <a href="products-services.html">Products and Services</a>
-    <a href="archive-resources.html">Archive and Resources</a> <!--Files for download-->
-    <a href="our-story.html">Our Story</a>
+    <a href="index.html">Projects</a> <!--bamboo regional hub-->
+    <!--<a href="gallery.html">Gallery</a>-->  
+    <a href="products-services.html">Services</a> <!--products and services and gallery-->
+    <a href="archive-resources.html">Archive</a> <!--Files for download-->
+    <a href="our-story.html">Story</a> <!--vision, ethos, bla bla-->
     <!-- <a href="#" class="right">Link</a> -->
   </div>
   
   <div class="row">
-    <div class="side">
-    <p><ttextcol><b>Products</b></ttextcol></p>
-    <p> <btext>
-        <br>        <b>Bamboo Poles:</b> up to 6m long, between 50mm-100mm diam. 
-        <br><br>    <b>Bamboo Strips:</b> up to 3m long, various profiles and sizes
-        <br><br>    <b>Bamboo Straws:</b> up to 220mm long, 8mm-15mm diam.  
-        <br><br>       Please inquire for availability
-        <br><br><br><br><br><br><br>
-    <p><ttextcol><b>Custom bamboo screens, mats and other items available on request.</b></ttextcol> </p>
-
-        
-        
-    </btext>
-    </p>
-        
-    </div>
     
-
     <div class="main">
+
+        <p><ttextcol><b>Products</b></ttextcol></p>
+        <p> 
+            <btext>
+            <b>Bamboo Poles</b> <br> up to 6m long, between 50mm-100mm diam. 
+            <br><br>    <b>Bamboo Strips</b> <br>  up to 3m long, various profiles and sizes
+            <br><br>   <b>Bamboo Straws</b> <br>  up to 220mm long, 8mm-15mm diam.  
+            <br><br>       Custom bamboo screens, mats and other items available on request.
+                     Please inquire for availability and prices.</b></btext></p>
+                     
+    <br>
+
        <p><ttextcol><b>Services</b></ttextcol></p> 
        <p> 
-        <br> <btext> <b> Bamboo Consultants </b>
+        <btext> <b> Bamboo Consultants </b>
         <br><br> RHSA offers support to anyone interested in growing, harvesting, designing or building with bamboo.     
         </btext>
     </p>
@@ -308,30 +311,28 @@
                        
        </btext></p>
 
-    </div>
+       <br>
+       <p><ttextcol><b>Gallery</b></ttextcol></p> 
+       <div id="imagelist">   
+       <a href="img/fish-screen-1.jpg"><img src="img/fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+       <a href="img/fish-screen-2.jpg"><img src="img/fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+       <a href="img/interior-2.jpg"><img src="img/interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
+       <a href="img/nmcyc-1.jpg"><img src="img/nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+       <a href="img/nmcyc-2.jpg"><img src="img/nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
+       <a href="img/nmcyc-3.jpg"><img src="img/nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+       <a href="img/suspension-1.jpg"><img src="img/suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
+       
+       
+       <!--Creating a grid of images with CSS
+       https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
+   
 
 
-    <div class="sideright">
-        
-        <div class=main>   
-            <p><ttextcol><b>Gallery</b></ttextcol></p> 
-            <div id="imagelist">   
-            <a href="img/fish-screen-1.jpg"><img src="img/fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-            <a href="img/fish-screen-2.jpg"><img src="img/fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-            <a href="img/interior-2.jpg"><img src="img/interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
-            <a href="img/nmcyc-1.jpg"><img src="img/nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-            <a href="img/nmcyc-2.jpg"><img src="img/nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
-            <a href="img/nmcyc-3.jpg"><img src="img/nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-            <a href="img/suspension-1.jpg"><img src="img/suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
-            
-            
-            <!--Creating a grid of images with CSS
-            https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
-        
-                       
-        </div>
+
+
 
     </div>
+
 
 
     </div>
