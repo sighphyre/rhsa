@@ -1,325 +1,139 @@
 <html>
 
-    <title>Renewable Houses SA - Projects</title>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
-<head>
-    <style>
-               
-               
-                    
-                   
+    <head>
+
+        <title>
+        Renewable Houses SA - Projects
+        </title>
+
+    </head>
+
+    <link rel="stylesheet" type="text/css" href="rhsastyle.css">
+
+       
+    <body>
+
+        <div class="header">
+        <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
+        <h1>Renewable Houses SA</h1>
+        </div> 
 
 
-                    .responsive {
-            width: 100%;
-            height: auto;
-        }
-
-        .header {
-        padding-top: 10px; 
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;/* some padding */
-        text-align: left; /* center the text */
-        background: #ffffff; /* green background */
-        color: rgb(0, 0, 0); /* white text color */
-        }
-
-        .header img {
-            float: left;
-            width: 60px;
-            height: 60px;
-            background:rgb(255, 255, 255);
-            padding-right: 12px;
-        }
-
-        .header h1 {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 24px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                }
-
-        .navbar {
-        overflow: hidden; /* Hide overflow */
-        background-color: rgb(223, 247, 193); /* Dark background color */
-                }
-
-        .navbar a {
-        float: left; /* Make sure that the links stay side-by-side */
-        display: block; /* Change the display to block, for responsive reasons (see below) */
-        color: rgb(0, 0, 0); /* White text color */
-        text-align: center; /* Center the text */
-        padding: 10px; /* Add some padding */
-        padding-left: 20px;
-        text-decoration: none; /* Remove underline */
-        }
-
-        br {
-        line-height: 150%;
-        }
-        
-        * {
-        box-sizing: border-box;
-        }
-
-            /* Column container */
-        .row {
-        display: flex;
-        flex-wrap: wrap;
-        scroll-behavior: auto;
-        overflow: auto;
-        height: 100%;
-        }
-
-        /* Main column */
-        .main {
-        flex: 100%; /* Set the width of the main content */
-        background-color: white; /* White background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        line-height: 120%;
-        }
-
-        body {
-        font-family: Arial, Helvetica, sans-serif;
-        height: 100%;
-        scroll-behavior: auto;
-        padding-bottom: 250px;
-        margin: 0px;
-        }
-
-        .footer {
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        padding-left: 10px; /* Some padding */
-        padding-top: 0px;
-        text-align: left; /* Center text*/
-        background-color: rgb(223, 247, 193);        
-        }
-    
-        .footer h2 {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .footerleft {
-        float:left;
-        flex: 40%; /* Set the width of the main content */
-        padding: 5px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        }
-
-               .footerright {
-        float: right;
-        flex: 40%; /* Set the width of the main content */
-        padding: 5px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        }
-
-
-        
-        .footerright img {
-            float: right;
-            width: 120px;
-            height: 70px;
-            padding-right: 12px;
-            padding-top: 5px;
-        }
-
-       /* title text for columns */
-    
-        ttext  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        ttextcol  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 24px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:rgb(143, 184, 93)
-        }
-
-        /* body text for columns */
-        btext  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 13px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        @media only screen and (min-width: 1024px) {
-                    
-                    .main { 
-                        padding: 400px;
-                        flex-wrap: wrap;
-                        padding-top: 35px;
-                    }
-                    .navbar a {
-                    padding-left: 100px;
-                        }
-                  
-               }
-
-
-      
-
-</style>
-
-
-</head>
-
-
-
-<div class="header">
-    <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-    <h1>Renewable Houses SA</h1>
-  </div> 
-
-
-
-
-<body>
-
-    <script>
+        <script>
         // alert("Hello Dim")
         function handleClick() {
-            // alert("We are currently out of stock of everything \nApologies for the inconvenience")
-            let infoBar = document.querySelector("#info-bar")
-            infoBar.style.height = "200px";
+        // alert("We are currently out of stock of everything \nApologies for the inconvenience")
+        let infoBar = document.querySelector("#info-bar")
+        infoBar.style.height = "200px";
         }
-    </script>
+        </script>
 
-
-
-<div class="navbar">
-    <a href="index.html">Projects</a> <!--bamboo regional hub-->
-    <!--<a href="gallery.html">Gallery</a>-->  
-    <a href="products-services.html">Services</a> <!--products and services and gallery-->
-    <a href="archive-resources.html">Archive</a> <!--Files for download-->
-    <a href="our-story.html">Story</a> <!--vision, ethos, bla bla-->
-    <!-- <a href="#" class="right">Link</a> -->
-  </div>
-  
-  <div class="row">
-    
-    <div class="main">
-       <p><ttextcol><b>Bamboo Regional Hub</b></ttextcol></p> 
-       <p> <btext> 
-        <br>   
-                We are currently developing a business model around the idea of a Bamboo Regional Hub. The Hub will consist of 3 components working in synergy: 
-                <br><br>    &emsp; <b>1 - Bamboo Nursery</b> 
-                <br>    &emsp; <b>2 - Bamboo Treatment Facility</b> 
-                <br>    &emsp; <b>3 - Craft Workshop</b>
-                <br><br> The basic idea is to nurture an inclusive economy around the ecology of bamboo in its natural life cycle. 
-                Due to the cyclical nature of the bamboo growing and harvesting, cultivating and processing 
-                bamboo utilizes different operational cycles throughout the year. </btext>
-        </p>
-
-        <br><b>Production</b><br>
-        
-
-
-        <p> 
-        <btext> 
-            <b>1.</b> The Bamboo Nursery will facilitate the reproduction of desirable bamboo species throughout the year or whenever possible. 
-            Several propagation methods will be explored. We would like to establish a stable bamboo seedling supply chain for farmers and growers.  
-
-            <br><br> <b>2.</b> Chemical treatment and curing is necessary to turn raw bamboo into a usable construction material. 
-            Untreated the bamboo will only last 2-3 years compared to 30-40 years treated and used undercover. 
-            The Bamboo Treatment facility will enable experimentation of various treatment techniques, including iterations of preservation by sap displacement (Boucherie method)
-             as well as hot and cold soaking techniques. The most effective techniques will be documented and the process will be published by RHSA as open-source material.  
-            The treatment facility will also be equipped for the curing and drying of bamboo poles and strips.
-            
-            <br><br> <b>3.</b> The Craft Workshop is a space that enables the processing of bamboo into various products. 
-            Among these include daily utensils; furniture and housing components such as posts, beams, wall partitions, screens, roof trusses, doors, etc
-            As we grow as a business, we aim to invest in processing technology to enable us to develop and produce standardized products.  
-            Skills development training programs for bamboo and earth construction will also take place at the Craft Workshop.      
-            </btext>
-        </p>
-
-        <p> 
-            <br><b>Challenges</b>
-            <btext> 
-            <br><br> 1. Access to Funding / Investment Capital
-            <br> 2. Mapping existing bamboo
-            <br> 3. Identifying existing species 
-            <br> 4. No clear policy from the government regarding invasive species or bamboo classification(s).
-            <br> 5. Virtually no political will from the government to support or develop this business model. 
-            <br><br> If you think you or your organization can assist with any of the above, please contact us. 
-        </p>
-            
-                       
-       </btext></p>
-
-    </div>
-  </div>
-    
-
-  <div class="footer">
-    
-<div class="row"> 
-
-    <div class="footerleft"> 
-        <p>  
-        <h2><b>Renewable Houses South Africa (Pty) Ltd</b>
-        <br>CIPC REG: 2018 /198165/07
-        
-        <div id="hideaway" style="display:none;">
-        
-        <p>
-            Kanji: 076 100 4764 / k.yoshimura@renewablehouses.co.za 
-            <br>Dimitar: 071 581 2568 / d.dobrev@renewablehouses.co.za 
-            <br>Site maintained by RHSA | 2020 
-        </p>                
+        <div class="navbar">
+            <a href="index.html">Projects</a>   
+            <a href="services.html">Services</a> 
+            <a href="archive.html">Archive</a> 
+            <a href="story.html">Story</a> 
         </div>
-        <p> 
-        <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Contact Details</a>
-        <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide Details</a>
-        </p>
+    
+        <div class="row">
         
-    </h2> 
-        </p>
-    </div>
+            <div class="main">
+                <p> 
+                    <ttextcol><b>Bamboo Regional Hub</b></ttextcol>
+                </p> 
+                
+                <p> <btext> 
+                    <br>   
+                    We are currently developing a business model around the idea of a Bamboo Regional Hub. The Hub will consist of 3 components working in synergy: 
+                    <br><br>    &emsp; <b>1 - Bamboo Nursery</b> 
+                    <br>    &emsp; <b>2 - Bamboo Treatment Facility</b> 
+                    <br>    &emsp; <b>3 - Craft Workshop</b>
+                    <br><br> The basic idea is to nurture an inclusive economy around the ecology of bamboo in its natural life cycle. 
+                    Due to the cyclical nature of the bamboo growing and harvesting, cultivating and processing 
+                    bamboo utilizes different operational cycles throughout the year. </btext>
+                </p>
 
+                <br><b>Production</b><br>
 
-    <div class="footerright"> 
-        <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-    </div>
+                <p> 
+                    <btext> 
+                    <b>1.</b> The Bamboo Nursery will facilitate the reproduction of desirable bamboo species throughout the year or whenever possible. 
+                    Several propagation methods will be explored. We would like to establish a stable bamboo seedling supply chain for farmers and growers.  
 
-</div>
-     
+                    <br><br> <b>2.</b> Chemical treatment and curing is necessary to turn raw bamboo into a usable construction material. 
+                    Untreated the bamboo will only last 2-3 years compared to 30-40 years treated and used undercover. 
+                    The Bamboo Treatment facility will enable experimentation of various treatment techniques, including iterations of preservation by sap displacement (Boucherie method)
+                    as well as hot and cold soaking techniques. The most effective techniques will be documented and the process will be published by RHSA as open-source material.  
+                    The treatment facility will also be equipped for the curing and drying of bamboo poles and strips.
+                    
+                    <br><br> <b>3.</b> The Craft Workshop is a space that enables the processing of bamboo into various products. 
+                    Among these include daily utensils; furniture and housing components such as posts, beams, wall partitions, screens, roof trusses, doors, etc
+                    As we grow as a business, we aim to invest in processing technology to enable us to develop and produce standardized products.  
+                    Skills development training programs for bamboo and earth construction will also take place at the Craft Workshop.      
+                    </btext>
 
-  </div> 
+                </p>
+
+                <p> 
+                    <br><b>Challenges</b>
+                    <btext> 
+                    <br><br> 1. Access to Funding / Investment Capital
+                    <br> 2. Mapping existing bamboo
+                    <br> 3. Identifying existing species 
+                    <br> 4. No clear policy from the government regarding invasive species or bamboo classification(s).
+                    <br> 5. Virtually no political will from the government to support or develop this business model. 
+                    <br><br> If you think you or your organization can assist with any of the above, please contact us.</btext>
+
+                </p>
+
+            </div>
+                
+        
+
+                
+            <div class="footer">
+        
+                <div class="row"> 
+                    <div class="footerleft"> 
+                        <p>  
+                            <h2>
+                                <b>Renewable Houses South Africa (Pty) Ltd</b>
+                                <br>CIPC REG: 2018 /198165/07
+
+                                <div id="hideaway" style="display:none;">
+                
+                                    <p>
+                                        Kanji: 076 100 4764 / k.yoshimura@renewablehouses.co.za 
+                                        <br>Dimitar: 071 581 2568 / d.dobrev@renewablehouses.co.za 
+                                        <br>Site maintained by RHSA | 2020 
+                                    </p>                
+                                </div>  
+
+                                <p> 
+                                    <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Contact Details</a>
+                                    <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide Details</a>      
+                                </p>
+            
+                            </h2>
+                        </p>
+
+                    </div>
+
+                    <div class="footerright"> 
+                        <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
+                    </div>
+                </div>
+          
+            </div> 
+
+        </div>
+    </body>
 
 
 </html>
