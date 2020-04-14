@@ -211,6 +211,7 @@ padding: 400px;
 flex-wrap: wrap;
 padding-top: 35px;
 }
+
 .navbar a {
 padding-left: 100px;
 }       
@@ -219,7 +220,7 @@ padding-left: 100px;
 width: 100%;
 max-width: auto;
 height: auto;
-padding: 500px;
+padding: 700px;
 padding-top: 10px;
 }
 
