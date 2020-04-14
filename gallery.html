@@ -1,326 +1,97 @@
 <html>
-
-    <title>Renewable Houses South Africa - Projects</title>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <base target="_blank"> --> 
-<head>
-    <style>
-               
-               
-        .header {
-        padding-top: 20px; 
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 40px;/* some padding */
-        text-align: left; /* center the text */
-        background: #ffffff; /* green background */
-        color: rgb(0, 0, 0); /* white text color */
-        }
 
-        .header img {
-            float: left;
-            width: 65px;
-            height: 65px;
-            background:rgb(255, 255, 255);
-            padding-right: 12px;
-        }
+    <head>
 
-        .header h1 {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-                }
+        <title>
+        Renewable Houses SA - Gallery
+        </title>
 
-        .navbar {
-        overflow: hidden; /* Hide overflow */
-        background-color: rgb(223, 247, 193); /* Dark background color */
-        }
+    </head>
 
-        .navbar a {
-        float: left; /* Make sure that the links stay side-by-side */
-        display: block; /* Change the display to block, for responsive reasons (see below) */
-        color: rgb(0, 0, 0); /* White text color */
-        text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
-        text-decoration: none; /* Remove underline */
-        }
+    <link rel="stylesheet" type="text/css" href="rhsastyle.css">
 
+    <body>
+
+        <div class="header">
+            <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
+            <h1>Renewable Houses SA</h1>
+        </div> 
+
+        <script>
+            // alert("Hello Dim")
+            function handleClick() {
+                // alert("We are currently out of stock of everything \nApologies for the inconvenience")
+                let infoBar = document.querySelector("#info-bar")
+                infoBar.style.height = "200px";
+            }
+
+        </script>
+
+        <div class="navbar">
+    <btext>
         
-        br {
-        line-height: 150%;
-        }
+        <a href="index.html">  &emsp; Projects</a>   
+        <a href="services.html">Services</a> 
+        <a href="gallery.html">Gallery</a> 
+        <a href="archive.html">Archive</a>
+        <a href="story.html">Story</a> 
         
-        * {
-        box-sizing: border-box;
-        }
-
-            /* Column container */
-            .row {
-        display: flex;
-        flex-wrap: wrap;
-        scroll-behavior: auto;
-        overflow: auto;
-        height: 100%;
-        }
-
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        .side {
-        flex: 30%; /* Set the width of the sidebar */
-        background-color: #ffffff; /* Grey background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        line-height: 120%;
-        }
-
-        /* Main column */
-        .main {
-        flex: 70%; /* Set the width of the main content */
-        background-color: white; /* White background color */
-        padding: 35px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-
-        }
-
-        body {
-        font-family: Arial, Helvetica, sans-serif;
-        height: 100%;
-        scroll-behavior: auto;
-        padding-bottom: 250px;
-        margin: 0px;
-        }
-
-        #imagelist {
-            
-            font-size: 0;
-            width: 261px;
-            margin: 0 auto;
-            float: left;
-        }
-
-        #imagelist a {
-            margin: 2px;
-            border: 4px solid transparent;
-            display: inline-block;
-            border-radius: 10px;
-            opacity: .8;
-        }
-
-        #imagelist a:hover {
-           border-color: rgb(223, 247, 193); 
-           opacity: 1;
-        }
-
-        #imagelist img {
-            border-radius: 6px;
-        }
-
-        .footer {
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        padding-left: 10px; /* Some padding */
-        padding-top: 0px;
-        text-align: left; /* Center text*/
-        background-color: rgb(223, 247, 193);        
-        }
-    
-        .footer h2 {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-        .footerleft {
-        float:left;
-        flex: 50%; /* Set the width of the main content */
-        padding: 5px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        }
-
-        .footerright {
-        float: right;
-        flex: 50%; /* Set the width of the main content */
-        padding: 5px; /* Some padding */
-        overflow: auto;
-        height: 100%;
-        scroll-behavior: auto;
-        }
-        
-        .footerright img {
-            float: right;
-            width: 150px;
-            height: 70px;
-            padding-right: 12px;
-        }
-
-
-
-
-       /* title text for columns */
-        ttext  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-        ttextcol  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 24px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:rgb(143, 184, 93)
-        }
-
-
-        /* body text for columns */
-        btext  {
-        position: left;
-        top: 0px;
-        left: 0px;
-        bottom: 0px;
-        font-size: 13px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-       
-
-</style>
-
-    
-
-
-
-
-
-
-</head>
-
-
-<div class="header">
-    
-    <img src="img/RHSA-LOGO-ONLY.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-    <h1>Renewable Houses South Africa</h1>
-  </div> 
-
-
-
-<body>
-    <script>
-        // alert("Hello Dim")
-        function handleClick() {
-            // alert("We are currently out of stock of everything \nApologies for the inconvenience")
-            let infoBar = document.querySelector("#info-bar")
-            infoBar.style.height = "200px";
-        }
-
-    </script>
-
-
-<div class="navbar">
-    <a href="index.html">Home</a> 
-    <!--<a href="gallery.html">Gallery</a>--> 
-    <a href="products-services.html">Products and Services</a>
-    <a href="archive-resources.html">Archive and Resources</a> <!--Files for download-->
-    <a href="our-story.html">Our Story</a>
-    <!-- <a href="#" class="right">Link</a> -->
-  </div>
-  
-<div class=row>
-    
-    <div class=side> 
-    <p><ttextcol><b>Gallery</b></ttextcol></p>
-        
-    </div>
-
-
-    <div class=main>   
-       
-            <div id="imagelist">   
-            <a href="img/fish-screen-1.jpg"><img src="img/fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-            <a href="img/fish-screen-2.jpg"><img src="img/fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
-            <a href="img/interior-2.jpg"><img src="img/interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
-            <a href="img/nmcyc-1.jpg"><img src="img/nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-            <a href="img/nmcyc-2.jpg"><img src="img/nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
-            <a href="img/nmcyc-3.jpg"><img src="img/nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
-            <a href="img/suspension-1.jpg"><img src="img/suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
-            
-            
-            <!--Creating a grid of images with CSS
-            https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
-
-        
+    </btext>
         </div>
-
-    </div>
     
-
-
-
-</div>
-
-  
-
-
-
-
-
-  
-<div class="footer">
-    
-    <div class="row"> 
-    
-        <div class="footerleft"> 
-            <p>  
-            <h2><b>Renewable Houses South Africa (Pty) Ltd</b>
-            <br>CIPC REG: 2018/198165/07
+        <div class="row">    
             
-            <div id="hideaway" style="display:none;">
-            
-            <p>info.rhssa@gmail.com 
-            <br>Kanji Yoshimura: (076) 100 4764 
-            <br>Dimitar Dobrev: (071) 581 2568
-            </p>                
+            <div class="main">
+                
+                <p><ttextcol><b>Gallery</b></ttextcol></p> 
+                <div id="imagelist">   
+                    <a href="img/rhsa-bamboo-fish-screen-1.jpg"><img src="img/rhsa-bamboo-fish-screen-1low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-fish-screen-2.jpg"><img src="img/rhsa-bamboo-fish-screen-2low.jpg" alt="RHSA Bamboo Screen, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-interior-2.jpg"><img src="img/rhsa-bamboo-interior-2low.jpg" alt="RHSA Bamboo Interior Connection, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-nmcyc-1.jpg"><img src="img/rhsa-bamboo-nmcyc-1low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-nmcyc-2.jpg"><img src="img/rhsa-bamboo-nmcyc-2low.jpg" alt="RHSA Bamboo Landscaping, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-nmcyc-3.jpg"><img src="img/rhsa-bamboo-nmcyc-3low.jpg" alt="RHSA Bamboo Nursery Construction, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-suspension-1.jpg"><img src="img/rhsa-bamboo-suspension-1low.jpg" alt="RHSA Bamboo Temporary Construction, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-straws.jpg"><img src="img/rhsa-bamboo-straws-low.jpg" alt="RHSA Bamboo straws, durban, south africa"></a>
+                    <a href="img/rhsa-bamboo-forest-management.jpg"><img src="img/rhsa-bamboo-forest-management-low.jpg" alt="RHSA Bamboo forest management, durban, south africa"></a>
+                    <a href="img/rhsa-innovate-durban-2018.jpg"><img src="img/rhsa-innovate-durban-2018-low.jpg" alt="RHSA, bamboo, innovate, durban, south africa"></a>
+                    <a href="img/rhsa-research-column-base.jpg"><img src="img/rhsa-research-column-base-low.jpg" alt="RHSA Bamboo forest management, durban, south africa"></a>
+                    <a href="img/rhsa-research-landscape-element.jpg"><img src="img/rhsa-research-landscape-element-low.jpg" alt="RHSA Bamboo building, construction, landscape, durban, south africa"></a>
+
+                    
+                    <!--Creating a grid of images with CSS
+                    https://www.youtube.com/watch?time_continue=84&v=stucKrWheVM&feature=emb_logo-->
+
+                </div>
+
             </div>
-            <p> 
-            <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Contact Details</a>
-            <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide Details</a>
-            </p>
-        </h2> 
-            </p>
+    
         </div>
-    
-        <div class="footerright"> 
-            <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
-        </div>
-    
-    </div>
-         
-    
-      </div> 
 
+        <div class="footer">
+        
+            <div class="row"> 
+                <div class="footerleft"> 
+                    <p>  
+                        <h2>
+                            <b>Renewable Houses South Africa (Pty) Ltd</b>
+                            <br>CIPC REG: 2018/198165/07<br>
+                            <a href="contact.html">Contact Us</a>   
+                        </h2>
+                    </p>
+
+                </div>
+
+                <div class="footerright"> 
+                    <img src="img/rhsa-crop.png" alt="rhsa, renewable, houses, bamboo, earth, building, durban, south africa"/> 
+                </div>
+            </div>
+      
+        </div>
+
+    </body>
 
 </html>
