@@ -6,20 +6,25 @@
     font-weight: bold;
     }
     
+
+
+
+    
     .navbar {
+    float: center; 
     overflow: hidden; 
     background-color: rgb(223, 247, 193); 
     }
 
     .navtext  {
-    position: relative;
-    left: 20px;
+    
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     .navbar a {
-    float: left; 
-    display: block; 
+    float: center; 
+    display: inline-block; 
     color: rgb(0, 0, 0); 
     text-align: center; 
     padding: 9px; 
@@ -36,27 +41,39 @@
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: left; 
+    text-align: center; 
     background: #ffffff; 
     color: rgb(0, 0, 0); 
     }
     
+
     .header img {
+    display: inline-block;
     float: left;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 70px;
     background:rgb(255, 255, 255);
-    padding-right: 12px;
+    padding-right: 0px;
     }
     
     .header h1 {
-    position: left;
+    position: center;
     top: 0px;
     left: 0px;
     bottom: 0px;
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+    .header h2 {
+        position: center;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        font-size: 14px;
+        padding-left: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
     
     
     br {
@@ -134,6 +151,10 @@
     }
     /* GALLERY ENDS */
     
+
+
+   
+
 
 
 
@@ -249,64 +270,70 @@
     @media only screen and (min-width: 1024px) {
            
    
-    .header {
-        padding-left: 20%;
-    } 
+  
 
 
-        .header h1 {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    font-size: 36px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    .header img {
-        float: left;
-        width: 70px;
-        height: 70px;
-        background:rgb(255, 255, 255);
-
-        }
-
-    .main { 
-    padding: 25%;
-    flex-wrap: wrap;
-    padding-top: 35px;
-    }
-    
-    .navbar a {
-    padding-left: 3%;
-    }       
-    
-    #navbuttons {
+            .header h1 {
         position: relative;
-        left: 400px;
-        font-size: 18px;
-        font-weight: bold;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        font-size: 42px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
-    .responsive { 
-    width: 100%;
-    max-width: auto;
-    height: auto;
-    padding: 700px;
-    padding-top: 10px;
-    }
-    
-    .img {
-    float: left;
-    width: auto;
-    background:rgb(255, 255, 255); 
-    }
-    
-    .main h2 {
-        font-size: 38px;
-    }
-    
+            
+        .header h2 {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            font-size: 18px;
+            padding-left: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
 
+
+        .main { 
+        padding: 25%;
+        flex-wrap: wrap;
+        padding-top: 35px;
+        }
+        
+        .navbar a {
+        padding-left: 3%;
+        }       
+        
+        #navbuttons {
+            position: center;
+            left: 400px;
+            font-size: 18px;
+            font-weight: bold;
+            }
+
+        .responsive { 
+        width: 100%;
+        max-width: auto;
+        height: auto;
+        padding: 700px;
+        padding-top: 10px;
+        }
+        
+        .header img {
+        
+            float: center;
+            padding-inline-start: 0px;
+            width: 80px;
+            height: 100px;
+            background:rgb(255, 255, 255); 
+
+        }
+        
+        .main h2 {
+            font-size: 38px;
+        }
+        
 
 
     }
