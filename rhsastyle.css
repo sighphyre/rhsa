@@ -304,6 +304,70 @@
     } 
    
 
+    .Bamboo-Development-Model {
+        width: 300;
+        height: 425;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    } 
+   
+
+    .Concept-Render {
+        width: 300;
+        height: 300;
+        background-image: url(img/Concept-Render.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    } 
+   
+    .Archi-Banner {
+        width: 300;
+        height: 169;
+        background-image: url(img/Archi-Banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    } 
+   
+    .Forest-Management {
+        width: 300;
+        height: 169;
+        background-image: url(img/Forest-Management.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    }   
+
+    .Rod-Puncture {
+        width: 300;
+        height: 225;
+        background-image: url(img/Rod-Puncture.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    }   
+   
+
+    .Bamboo-Seedling {
+        width: 300;
+        height: 225;
+        background-image: url(img/Bamboo-Seedling.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center left; 
+
+    }   
+
+
+
+
 
     @media only screen and (min-width: 1024px) {
            
@@ -345,6 +409,62 @@
             background-position: center; 
     
         } 
+
+
+        .Bamboo-Development-Model {
+            width: 800;
+            height: 1132;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center left; 
+    
+        } 
+
+
+
+        .Archi-Banner {
+            width: 600;
+            height: 338;
+            background-image: url(img/Archi-Banner.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center left; 
+    
+        } 
+
+        .Forest-Management {
+            width: 600;
+            height: 338;
+            background-image: url(img/Forest-Management.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center left; 
+    
+        }   
+
+        .Rod-Puncture {
+            width: 600;
+            height: 450;
+            background-image: url(img/Rod-Puncture.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center left; 
+    
+        }   
+
+
+        .Bamboo-Seedling {
+            width: 600;
+            height: 450;
+            background-image: url(img/Bamboo-Seedling.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center left; 
+    
+        }   
+    
+
+
 
 
             .header h1 {
