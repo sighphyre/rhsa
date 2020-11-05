@@ -150,11 +150,6 @@
     
 
 
-   
-
-
-
-
 
     .footer {
     left: 0;
@@ -354,7 +349,7 @@
 
     }   
    
-
+    
     .Bamboo-Seedling {
         width: 300;
         height: 225;
@@ -364,6 +359,19 @@
         background-position: center left; 
 
     }   
+
+
+
+    /*Cant get this logo to work... */
+    .logo {
+        width: 600;
+        height: 225;
+        background-image: url(img/RHSA-LOGO-ONLY.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
 
 
 
@@ -529,6 +537,19 @@
             font-size: 38px;
         }
         
+
+
+        /*Cant get this logo to work... */
+        .logo {
+            width: 600;
+            height: 225;
+            background-image: url(img/RHSA-LOGO-ONLY.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+    
+        }
+
 
 
     }
