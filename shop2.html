@@ -71,13 +71,13 @@
 
         <div id="navbuttons" class="navtext">
 
-            <a href="index.html">Bamboo Regional Hub</a>
-            <a href="services.html">Services</a>
-            <a href="shop.html">Shop</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="archive.html">Open Source</a>
-            <a href="story.html">Vision</a>
-            <a href="support-us.html">Contact / Support Us</a>
+        <a href="index.html">Bamboo Regional Hub</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="archive.html">Open Source</a>
+        <a href="story.html">Vision</a>
+        <a href="support-us.html">Contact / Support Us</a>
+        
 
         </div>
 
@@ -92,65 +92,26 @@
 
         <div class="main">
 
+            <form name="ShoppingList">
+                <fieldset>
+                    <legend>Shopping cart</legend>
+                    <label>Item: <input type="text" name="name"></label>
+                    <label>Quantity: <input type="text" name="data"></label>
             
-
-
-            <p><h2>Bamboo Products</h2></p>
-
-            <br><b>Bamboo Poles</b>
-            <p>
-                <btext>
-                
-                2.4m - 120mm dia Dendrocalamus Asper <br>
-                3m - 90/75mm dia Dendrocalamus Asper <br>
-                6m - 90/60mm dia Dendrocalamus Asper  <br>
-                3m - 40mm dia Beema (Roxb) <br>
-                1m - 130mm dia Bambussa Balcooa <br>
-                Inquire for stock availability. <br>
-            
-            
-            </btext>
-            </p> 
-            <b>Bamboo Splits</b> 
-            <p>
-                <btext>
-                    3m - 1/8th Phyllostachys splits <br>
-                    Inquire for various profiles and sizes. 
-                </btext>
-            </p> 
-
-            <b>Bamboo Bundles</b>   
-            <p>
-                <btext>
-                2m - 20mm dia Beema Bamboo bundle (10kg) <br>
-                3m - 40/25mm dia Beema Bamboo bundle (20kg) <br>
-                Bundles are sold by weight. Quantity of poles may vary. 
-            </btext>
-            </p> 
-
-            <b>Bamboo Straws</b>   
-            <p>
-                <btext>
-                Up to 220mm long, 8mm-15mm diam.   </btext>
-            </p> 
-
-            <b>Bamboo Seedlings</b>   
-            <p>
-                <btext>
-                Dendrocalamus Asper seedlings available.   </btext>
-            </p> 
-            <br>
-
-            <p>     
-            <b><btext>Please <a href="contact.html">inquire</a> for availability and prices.<br>
-                Custom bamboo screens, furniture and other items available on request.<br></b>  </btext>
-            </p>
-                        
-
-
-            <br> 
-            <br> 
-
+                    <input type="button" value="Save"   onclick="SaveItem()">
+                    <input type="button" value="Update" onclick="ModifyItem()">
+                    <input type="button" value="Delete" onclick="RemoveItem()">
+                </fieldset>
+                <div id="items_table">
+                    <h2>Shopping List</h2>
+                    <table id="list">
+                        Bamboo 1 
+                        Bamboo 2 
+                    </table>
+                    <label><input type="button" value="Clear" onclick="ClearAll()">
+                    * Delete all items</label>
+                </div>
+            </form>
 
         </div>
 
